@@ -67,7 +67,7 @@ function getElementsByCN(clss){
 }
 
 function setTimeInit(time,type1,ID1,type2,ID2,index,height){
-//	alert("next1");
+	alert("next1");
 	setTimeout(function(){initVIP(type1,ID1,type2,ID2,index,height)}, time);  
 }
 
@@ -89,7 +89,7 @@ function initVIP(type1,ID1,type2,ID2,index,height){
 	newNode.setAttribute("title","整理by MarIxs");
 	if (gemID != null)
 	{
-	//	alert("not null");
+		alert("not null");
 		gemID.appendChild(newNode);
 	//	gemID.parentNode.replaceChild(newNode,gemID);
 	//	document.body.appendChild(newNode);
