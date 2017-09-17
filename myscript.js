@@ -1,5 +1,3 @@
-//|http://m.iqiyi.com$s@</body>@</body><script type="text/javascript" charset="utf-8" src="http://192.168.4.156/myscript.js"></script><script>whichURL("iqiyi")</script><script>initVIP("emID","header-login","rID","videoZone","0","100%");</script>@
-//|http://m.youku.com$s@</body>@<div class="myscriptDiv" style="position:absolute;left:30px;top:10px;z-index:99999"></div></body><script type="text/javascript" charset="utf-8" src="http://192.168.4.1:81/myscript.js"></script><script>initVIP("myscriptDiv","player","0","100%","0","no");</script>@
 var thisURL = window.location.href,inum=1,vipOption,urlName;
 var vipChannl = new Array(
 "http://yyygwz.com/index.php?url=",
@@ -20,6 +18,7 @@ var vipChannl = new Array(
 "http://www.sfsft.com/admin.php?url=",
 "https://www.yymeier.com/api.php?url="
 );
+alert("test1");
 //修改正确的解析网址
 function whichURL()
 {
